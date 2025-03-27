@@ -38,6 +38,34 @@ https://learn.microsoft.com/en-us/
 # Actions  
 Reply to email (V3)
 
+```
+kind: TaskDialog
+modelDisplayName: Reply to email (V3)
+modelDescription: This operation replies to an email.
+inputs:
+  - kind: AutomaticTaskInput
+    propertyName: Body
+    description: |-
+      Content of the email. Answer the question asked in the e-mail body. 
+      Send the answers to the body of this e-mail. 
+      Explain your answers in depth. Please format the E-Mail in HTML style, use bold header und structure in chapters if required.  
+
+outputs:
+  - propertyName: Response
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: cr81b_microsoftSupportAssistant.shared_office365.shared-office365-692dd3d3-fc8d-40f0-9b00-842a45dc896f
+  connectionProperties:
+    mode: Invoker
+
+  operationId: ReplyToV3
+
+outputMode: All
+```
+
+
+
 # Triggers  
 When a new email arrives (V3) Use content from triggerBody
 from: 
