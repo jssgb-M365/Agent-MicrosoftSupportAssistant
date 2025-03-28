@@ -1,0 +1,27 @@
+Actions
+Office 365 Outlook - Reply to email (V3)
+
+Description for the agent to know when to use this action*
+'This operation replies to an email.'
+
+Input:
+Display name
+Message Id
+
+Identify as: 
+User's entire response
+Description
+'Id of the email to reply to.'
+
+Body: 
+Description
+'Content of the email. Answer the question asked in the e-mail body. 
+Send the answers to the body of this e-mail. 
+Explain your answers in depth. Please format the E-Mail in HTML style, use bold header und structure in chapters if required.'
+
+Outputs:
+Display name
+'Response'
+
+
+Triggers
