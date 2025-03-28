@@ -68,6 +68,9 @@ outputMode: All
 When a new email arrives (V3) Use content from triggerBody
 
 
+![Trigger1b](media/trigger-1b.png)
 
-
+<a href="media/trigger-1b.png" target="_blank">
+  <img src="media/trigger-1b.png" alt="Trigger1b" width="300">
+</a>
 
