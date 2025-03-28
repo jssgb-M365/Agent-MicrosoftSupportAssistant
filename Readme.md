@@ -36,7 +36,7 @@ Enabled
 https://learn.microsoft.com/en-us/
 ```
 # Actions  
-Reply to email (V3)
+Office 365 Outlook - Reply to email (V3)
 
 ```
 kind: TaskDialog
@@ -64,9 +64,10 @@ action:
 outputMode: All
 ```
 
-
-
 # Triggers  
 When a new email arrives (V3) Use content from triggerBody
-from: 
+
+
+
+
 
